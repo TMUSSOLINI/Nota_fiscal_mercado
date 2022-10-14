@@ -37,8 +37,5 @@ class Produto:
     def quantidade(self, quantidade):
         self.__quantidade = quantidade
 
-    def subtotal(self):
-        return self.__preco * self.__quantidade
-
     def extrato(self):
         return self.nome, self.quantidade, self.preco
