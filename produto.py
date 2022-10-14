@@ -25,10 +25,6 @@ class Produto:
     def preco(self):
         return self.__preco
 
-    @preco.setter
-    def preco(self, preco):
-        self.__preco = preco
-
     @property
     def quantidade(self):
         return self.__quantidade
